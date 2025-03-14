@@ -1,4 +1,4 @@
-#A simple password strength checker
+# A simple password strength checker
 
 Checks how many characters the password contains and their type, gives them a certain strength:
 
