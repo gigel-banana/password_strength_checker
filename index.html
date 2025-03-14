@@ -73,7 +73,7 @@
         			str.innerHTML = "medium";
   				pass.style.borderColor = "orange";
         			msg.style.color = "orange";
-    			} else if (password.length >= 8 || (hasSpecial == true || hasCap == true || hasNumber == true)) {
+    			} else if (password.length >= 8 || (hasSpecial == true && hasCap == true && hasNumber == true)) {
         			str.innerHTML = "strong";
        				pass.style.borderColor = "green";
         			msg.style.color = "green";
